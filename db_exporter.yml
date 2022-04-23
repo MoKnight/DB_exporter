@@ -1,0 +1,2 @@
+data_sourse_name: 'mysql://admin:admin@tcp(192.168.16.103:10880)/mysql'
+queries: ["select * from __all_server_stat where name = 'trans_count' and svr_ip = '192.168.16.103';]
